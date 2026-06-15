@@ -38,6 +38,18 @@ The key insight: **light serves dual purpose** — it carries Q-encoded signals 
 | CMOS temperature (50μm gap + cooling) | 107°C |
 | SNR (APD M=20) | 18 dB |
 
+## Prior Art & Novelty
+
+This work makes the following **first-disclosed** technical contributions:
+
+1. **First proposal of DiSubPc·C70 for optical computing** — The material was discovered by Sichuan University / CAS and published in Nature Photonics (2026) for photothermal conversion only (steam, desalination). We are the first to propose exploiting its 242°C / 17.6 GHz quantum coherent beating window as an optical MAC mechanism.
+
+2. **First self-heating thermal sieve architecture** — The data-carrying VCSEL beam simultaneously sustains the DiSubPc·C70 film at its operating temperature. All prior thermo-optic computing architectures (PHIL, PCM-GEMM) use external electrical or separate optical heating.
+
+3. **First free-space photon reuse in a thermal modulation array** — One photon pulse traverses D modulation points, performing D MAC operations. Photon reuse exists in waveguide delay lines (ReFOCUS, MICRO 2023) but is first proposed in a free-space thermal sieve.
+
+For a detailed prior art analysis with citations, see [PRIOR_ART.md](PRIOR_ART.md).
+
 ## Honest Assessment
 
 - **Physically sound**: photon reuse for attojoule dot products is real, grounded in Maxwell's equations
